@@ -1,3 +1,4 @@
+import React from 'react';
 import './globals.css';
 
 export const metadata = {
@@ -12,7 +13,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="zh">
-      <body>{children}</body>
+      <body>
+        {children}
+      </body>
     </html>
   );
 }

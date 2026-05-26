@@ -1,9 +1,8 @@
 import './globals.css';
-import type { Metadata } from 'next';
 
-export const metadata: Metadata = {
+export const metadata = {
   title: 'Marketing Intelligence Workspace',
-  description: 'Bitget Marketing Intelligence Workspace',
+  description: 'Bitget Marketing Workspace',
 };
 
 export default function RootLayout({
